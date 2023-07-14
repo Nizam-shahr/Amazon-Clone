@@ -4,8 +4,8 @@ import { Carousel } from 'react-responsive-carousel';
 
 function Banner() {
   return (
-    <div classNmae='relative' >
-        <div className='absolutr w-full h-32 bg-gradient-to-t from-gray-100 
+    <div className='relative' >
+        <div className='absolute w-full h-32 bg-gradient-to-t from-gray-100 
         to-transparent bottom-0 z-20
         ' />
         <Carousel
@@ -14,11 +14,8 @@ function Banner() {
          showStatus ={false}
          showIndicators={false}
          showThumbs={false}
-         interval ={5000}
+         interval ={2000}
         >
-         <div>
-            <img loading ='lazy' src='https://links.papareact.com/gil' alt='' />
-            </div>
             <div>
             <img loading ='lazy' src='https://links.papareact.com/6ff' alt='' />
             </div>
